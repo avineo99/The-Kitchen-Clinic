@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" >
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+      <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+      <link rel="stylesheet" href="assets/css/slick.css">
+      <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+      <link rel="stylesheet" href="assets/css/animate.css">
+      <link rel="stylesheet" href="assets/css/style.css" >
+      <link rel="icon" type="image/icon" href="assets/images/favicon.png" >
+      <title>The Kitchen Clinic</title>
+   </head>
+   <body>
+      <button  onclick="topFunction()" id="ScrollToTop"  title="Go to top" style="display: inline-block;">
+         <i class="fa-solid fa-angle-up"></i>   
+      </button>
+      <header >
+         <div class="main-header">
+
+            <div class="top-nav bg-light py-3">
+               <div class="container">
+                  <div class="top-wrap text-sm-end text-center">
+                     <a href="tel:01618436049" class="fs-17 fw-700 text-black-50">
+                        <i class="fa-solid fa-phone"></i>
+                        0161 843 6049
+                     </a>
+                     <a href="tel:01618436049" class="fs-17 fw-700 text-black-50 ms-sm-4 d-block d-sm-inline-block ">
+                        <i class="fa-solid fa-envelope"></i>
+                        info@thekitchenclinic.co.uk
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+            <nav class="navbar  navbar-expand-lg p-0  ">
+               <div class="container-fluid p-0 ">
+                 <a href="index.html" class="navbar-brand p-0 me-0">
+                  <img src="assets/images/logo.png" alt="Site Logo" class="img-fluid w-100">
+                 </a>
+                 <div class="nav-right">
+                  
+                     <div class="offcanvas offcanvas-start  " id="navbarOffcanvas"
+                           tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+                           <div class="offcanvas-header d-block d-lg-none">
+                           <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                           </div>
+                           <div class="offcanvas-body d-lg-flex align-items-center gap-xl-4 gap-3 py-xl-0 py-2">          
+                           <ul class="navbar-nav justify-content-lg-end flex-grow-1 ">
+                              <li class="nav-item">
+                                 <a class="nav-link active" href="index.html">Home </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link " href="about-us.html">About </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link " href="#">What we offer </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link " href="#">Lyndale History </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link " href="#">Contact </a>
+                              </li>
+
+                           </ul>
+                           <div class="nav-btns ms-xxl-5 ms-xl-4 ms-auto d-flex flex-wrap flex-lg-nowrap mt-3 mt-lg-0">
+                              <form>
+                                 <div class="form-group position-relative">
+                                    <input type="text" placeholder="Search" class="form-control h-100 w-100 border-1 border-dark rounded-0 fs-17 px-3 text-uppercase text-black-50 fw-700" >
+                                    <button class="border-0 bg-transparent position-absolute top-50 end-0 translate-middle-y fs-21">
+                                       <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                 </div>
+                              </form>
+                              <div class="nav-btn ms-lg-3 mt-3 mt-lg-0">
+                                 <a href="#" class="btn btn-dark h-100 w-100">
+                                    Request Free Quote 
+                                    &nbsp;
+                                    <i class="fa-solid fa-angle-right"></i>
+                                 </a>
+                              </div>
+                           </div>
+                           
+                           </div>
+                     </div>  
+                     <button class="navbar-toggler ms-3" type="button"
+                     data-bs-toggle="offcanvas" 
+                     data-bs-target="#navbarOffcanvas"
+                     aria-controls="navbarOffcanvas"
+                     aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars"></i>
+                     </span>
+                  </button>
+                 </div>
+                
+
+               </div>
+             </nav>
+         </div>
+      </header>
+
+
+
+
+      <div class="banner-sec">
+         <div id="carouselExampleCaptions" class="carousel slide" >
+
+            <div class="carousel-inner position-relative">
+              <div class="carousel-item active">
+                <img src="assets/images/hero-banner.jpg" class="img-fluid w-100 h-100 object-cover" alt="Hero banner">
+                  <div class="container position-absolute top-50 start-50 translate-middle   w-100 ">
+                     <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                           <div class="carousel-text text-center  wow animate__fadeInUp">
+                             
+                              <h1 class="fw-800 mb-5 pb-lg-5 text-white">
+                                 Up to 50% Cheaper
+                                 <span class="fs-90 d-block">
+                                    than a new fitted kitchen
+                                 </span>
+                              </h1>
+                              <div class="banner-btns d-flex justify-content-md-between justify-content-center flex-wrap flex-md-nowrap ">
+                                 <a href="#" class="btn btn-light m-2 m-md-0">
+                                    Kitchen doors
+                                    &nbsp;
+                                    <i class="fa-solid fa-arrow-right text-danger"></i>
+                                 </a>
+                                 <a href="#" class="btn btn-light m-2 m-md-0">
+                                    Kitchen worktops
+                                    &nbsp;
+                                    <i class="fa-solid fa-arrow-right text-danger"></i>
+                                 </a>
+                                 <a href="#" class="btn btn-light m-2 m-md-0">
+                                    Fully fitted kitchens
+                                    &nbsp;
+                                    <i class="fa-solid fa-arrow-right text-danger"></i>
+                                 </a>
+                              </div>
+                             
+                            </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+
+
+            </div>
+
+          </div>
+      </div>
+
+      <div class="welcome-sec py-5">
+         <div class="container pt-lg-5">
+            <div class="welcome-heading text-center wow animate__fadeInUp">
+               <h2 class="fs-50 lh-1 fw-800 mb-4 pb-3">
+                  Welcome to The Kitchen Clinic! 
+               </h2>
+               <p class="fs-20 lh-2">
+                  Refresh your kitchen with a stunning makeover at a fraction of the cost of a full renovation. Our expert team transforms your space by replacing outdated doors and worktops while keeping your existing cabinets, giving you a brand-new look without the hassle. Whether you love classic charm or modern elegance, we offer a wide range of styles to match your vision. Our high quality materials and expert craftsmanship ensure a fresh, stylish finish that looks brand new. Upgrade your kitchen effortlessly and affordably. Browse our range today and let’s bring your dream kitchen to life.
+               </p>
+            </div>
+            <div class="row mt-5 pt-lg-4 justify-content-center">
+               <div class="col-lg-4 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="welcome-wrap rounded-3 position-relative overflow-hidden">
+                     <div class="welcome-img">
+                        <img src="assets/images/welcome-img.jpg" alt="Welcome Image" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="welcome-bx position-absolute bottom-0 start-0 p-xl-4 p-2">
+                        <div class="welcome-text mb-2 bg-white rounded-3 p-xl-4 p-3">
+                           <h3 class="fs-30 ffp fw-600">
+                              Quality Products
+                           </h3>
+                           <p class="fs-20 lh-1-5">
+                              Our products are crafted with the highest quality materials, undergo rigorous testing for durability and performance, and are designed to exceed industry standards, ensuring exceptional reliability, longevity, and customer satisfaction.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="welcome-wrap rounded-3 position-relative overflow-hidden">
+                     <div class="welcome-img">
+                        <img src="assets/images/welcome-img2.jpg" alt="Welcome Image" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="welcome-bx position-absolute bottom-0 start-0 start-0 p-xl-4 p-2">
+                        <div class="welcome-text mb-2 bg-white rounded-3 start-0 p-xl-4 p-3">
+                           <h3 class="fs-30 ffp fw-600">
+                              Quick Fitting
+                           </h3>
+                           <p class="fs-20 lh-1-5">
+                              We install kitchens quickly and efficiently using highly skilled professional fitters, ensuring a seamless process with precision craftsmanship, minimal disruption, and a flawless finish that transforms your space in no time.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="welcome-wrap rounded-3 position-relative overflow-hidden">
+                     <div class="welcome-img">
+                        <img src="assets/images/welcome-img3.jpg" alt="Welcome Image" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="welcome-bx position-absolute bottom-0 start-0 start-0 p-xl-4 p-2">
+                        <div class="welcome-text mb-2 bg-white rounded-3 start-0 p-xl-4 p-3">
+                           <h3 class="fs-30 ffp fw-600">
+                              Family Owned Business
+                           </h3>
+                           <p class="fs-20 lh-1-5">
+                              As a family-owned business, we prioritize
+                              personalized service, trust, and quality
+                              craftsmanship, ensuring every project is
+                              handled with care, attention to detail, and a commitment to customer satisfaction that big corporations can't match.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-10 mt-5 pt-lg-4 wow animate__fadeInUp">
+                  <p class="fs-20 lh-2 text-center ">
+                     We specialize in transforming your old kitchen into a fresh, modern space at an affordable price. Our kitchen makeover service keeps your existing cabinets while replacing the doors and worktops giving you a brand-new look for a fraction of the cost of a full renovation. As your local experts in kitchen door replacements and refits, we offer a stunning range of designs and styles to choose from, whether you prefer a timeless classic kitchen or a sleek contemporary design. Browse our full range today!
+                  </p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="services-sec ">
+         <div class="container">
+            <div class="services-heading text-center wow animate__fadeInUp">
+               <h2 class="fs-50 lh-1 fw-800 mb-sm-5 mb-4 pb-lg-2">
+                  Services provided
+               </h2>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-3 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="services-wrap">
+                     <div class="services-img rounded-1 overflow-hidden">
+                        <img src="assets/images/services-1.png" alt="Services Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="services-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Doors
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           Stylish range of quality doors in modern and traditional colours and styles to choose from. We are your local experts in door replacements and refits. Great quality without the hefty price tag.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="services-wrap">
+                     <div class="services-img rounded-1 overflow-hidden">
+                        <img src="assets/images/services-2.jpg" alt="Services Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="services-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Worktops
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           We supply a large variety of high quality worktops including high density  laminates in many colours, solid wood, granite, quartz and marble worktops, which are durable and easy to maintain.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="services-wrap">
+                     <div class="services-img rounded-1 overflow-hidden">
+                        <img src="assets/images/services-3.jpg" alt="Services Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="services-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Sinks & Taps
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           Browse our extensive range of modern sinks and taps from leading manufacturers to suit all styles of modern and traditional kitchens. Large range of sinks of all sizes with matching taps.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 py-4 py-lg-0 wow animate__fadeInUp">
+                  <div class="services-wrap">
+                     <div class="services-img rounded-1 overflow-hidden">
+                        <img src="assets/images/services-4.jpg" alt="Services Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="services-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Appliances
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           We provide a large range of quality kitchen appliances to enhance your cooking experience. Our expert team assists you in creating a kitchen that’s both stylish and practical
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="choose-sec py-5 overflow-hidden">
+         <div class="container mt-5 pt-lg-3">
+            <div class="row justify-content-center">
+               <div class="col-lg-6 py-4 py-lg-0">
+                  <div class="choose-wrap">
+                     <div class="choose-heading text-center text-sm-start wow animate__fadeInUp">
+                        <h2 class="fs-50 lh-1 fw-800 mb-4 pb-3">
+                           Why Choose The Kitchen Clinic?
+                        </h2>
+                     </div>
+                     <div class="choose-bx wow animate__fadeInUp">
+                        <div class="choose-cont w-50 text-center ">
+                           <img src="assets/images/check-icn.svg" alt="check-icn " class="img-fluid mb-2">
+                           <p class="fs-20 lh-1-5 fw-700 mb-0">
+                              Refitting a kitchen by replacing cabinet doors and worktops can save up to 50% compared to a full remodel
+                           </p>
+                        </div>
+                     </div>
+                     <div class="choose-bx wow animate__fadeInUp">
+                        <div class="choose-cont w-50 text-center ms-auto">
+                           <img src="assets/images/check-icn.svg" alt="check-icn " class="img-fluid mb-2">
+                           <p class="fs-20 lh-1-5 fw-700 mb-0">
+                              A kitchen refit typically takes 2 – 3 days, while a full renovation can take 4 - 6 weeks or more.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="choose-bx wow animate__fadeInUp">
+                        <div class="choose-cont w-50 text-center ">
+                           <img src="assets/images/check-icn.svg" alt="check-icn " class="img-fluid mb-2">
+                           <p class="fs-20 lh-1-5 fw-700 mb-0">
+                              A refreshed kitchen can boost property value by up to 10-15%, making it a smart investment.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="choose-bx wow animate__fadeInUp">
+                        <div class="choose-cont w-50 text-center ms-auto">
+                           <img src="assets/images/check-icn.svg" alt="check-icn " class="img-fluid mb-2">
+                           <p class="fs-20 lh-1-5 fw-700 mb-0">
+                              Refitting instead of replacing an entire kitchen reduces waste by 60 - 70%, making it a more sustainable option.
+                           </p>
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+               <div class="col-lg-6 py-4 py-lg-0 ">
+                  <div class="choose-img mt-4 h-100 position-relative">
+                     <img src="assets/images/choose-img.jpg" alt="Choose Img" class="img-fluid w-100 h-100 object-cover ">
+                  </div>
+               </div>
+               <div class="col-md-10 mt-5 pt-lg-4 wow animate__fadeInUp">
+                  <p class="fs-20 lh-2 text-center ">
+                     A kitchen makeover can completely transform your home. At The Kitchen Clinic, we specialize in kitchen door replacements and refits, giving your kitchen a fresh new look for a fraction of the cost of a full renovation. Our friendly experts will guide you every step of the way, whether you visit us in-store or chat with us over the phone. We offer a wide range of styles and options to suit your taste and budget, so you can create a kitchen you’ll love. Stop by for a free consultation, or just pop in for a coffee and a chat.
+                  </p>
+                  <div class="book-btns mt-5 d-flex justify-content-lg-around flex-wrap flex-lg-nowrap justify-content-center">
+                     <a href="#" class="book-btn btn btn-danger m-2 m-lg-0">
+                        Book A Consultation
+                     </a>
+                     <a href="#" class="book-btn btn btn-danger m-2 m-lg-0">
+                        GET A FREE QUOTE
+                     </a>
+                     <a href="#" class="book-btn btn btn-danger m-2 m-lg-0">
+                        CONTACT US
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="makeovers-sec">
+         <div class="container">
+            <div class="makeovers-heading text-center wow animate__fadeInUp">
+               <h2 class="fs-50 lh-1 fw-800 mb-5">
+                  Kitchen Makeovers Made Easy
+               </h2>
+            </div>
+            <div class="makeovers-wrap wow animate__fadeInUp">
+               <p class="fs-20 mb-4 lh-1-5">
+                  We offer kitchen makeovers with replacement doors, drawers, worktops, handles, sinks, taps, and appliances. Our free consultation helps you explore design options and get a detailed quote with no obligation. Changing doors is a cost-effective way to refresh your kitchen without full demolition, saving time and up to 50% of the cost. With a wide range of styles and expert guidance, we make kitchen renovations easy, affordable, and tailored to your needs.
+               <br>
+               <br>
+               Our impressive range of products ensures that you can achieve the perfect kitchen makeover with high-quality materials and stylish designs. Whether you’re looking for a modern, sleek appearance or a more traditional, classic feel, we have options to suit every taste and budget.
+               </p>
+               <h4 class="fs-30 lh-1 fw-700 mb-0">
+                  Kitchen Doors and Drawers
+               </h4>
+               <p class="fs-20 mb-4 lh-1-5">
+                  We offer a large selection of kitchen doors and drawer fronts in various styles, colours, and finishes to suit any kitchen. Choose from timeless shaker doors for a classic touch, high-gloss finishes for a contemporary look, matt surfaces for a sophisticated feel, or wood grain textures for a warm and natural appearance. Our replacement doors and drawers provide an easy and affordable way to refresh your kitchen without the need for a full remodel.
+               </p>
+               <h4 class="fs-30 lh-1 fw-700 mb-0">
+                  Replacement Worktops
+               </h4>
+               <p class="fs-20 mb-4 lh-1-5">
+                  Upgrade your kitchen with our premium range of worktops, available in a variety of materials designed for durability and style. Choose from luxurious granite or quartz for a sleek and elegant finish, or opt for laminate or solid wood for a practical and cost-effective solution. Our worktops not only enhance the visual appeal of your kitchen but also provide a functional and long-lasting surface for daily use.
+               </p>
+               <h4 class="fs-30 lh-1 fw-700 mb-0">
+                  Sinks and Taps
+               </h4>
+               <p class="fs-20 mb-4 lh-1-5">
+                  Complete your kitchen transformation with our selection of high-quality sinks and taps. Whether you prefer a modern stainless steel finish, a classic ceramic style, or a durable composite option, we have something to match your kitchen’s design. Our taps come in a variety of styles, from traditional to contemporary, with options such as pull-out spray taps, mixer taps, and sensor-activated taps for added convenience.
+               </p>
+               <h4 class="fs-30 lh-1 fw-700 mb-0">
+                  Kitchen Appliances
+               </h4>
+               <p class="fs-20 mb-4 lh-1-5">
+                  Enhance the functionality of your kitchen with our extensive range of high-tech appliances. We offer the latest ovens, cooktops, dishwashers, and refrigerators to make your kitchen both stylish and efficient. Whether you’re looking for energy-efficient models, smart technology integration, or high-performance cooking appliances, we have options to suit your needs
+               </p>
+               <h4 class="fs-30 lh-1 fw-700 mb-0">
+                  Handles and Knobs
+               </h4>
+               <p class="fs-20 mb-4 lh-1-5">
+                  Small details make a big difference! Our collection of handles and knobs allows you to add the perfect finishing touch to your kitchen cabinets and drawers. Choose from an array of styles, including sleek metal finishes, elegant glass designs, or warm wooden textures. With a variety of shapes and sizes available, you can customize your kitchen’s look to your exact preferences.
+               </p>
+               <h4 class="fs-30 lh-1 fw-700 mb-0">
+                  Create Your Dream Kitchen with Us
+               </h4>
+               <p class="fs-20 mb-4 lh-1-5">
+                  At The Kitchen Clinic, we provide everything you need to achieve a stunning and functional kitchen makeover. With a vast selection of high-quality products, expert guidance, and custom solutions to fit your budget, we make the renovation process easy and stress-free.
+               </p>
+            </div>
+         </div>
+      </div>
+      <div class="contact-sec">
+         <div class="container">
+            <div class="contact-heading text-center wow animate__fadeInUp">
+               <h2 class="fs-30 lh-1 fw-700 mb-lg-5 mb-4 pb-lg-2 text-danger">
+                  Contact us today to start designing the kitchen of your dreams!
+               </h2>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-lg-4 col-md-6 my-4 my-lg-0 wow animate__fadeInUp">
+                  <div class="contact-wrap">
+                     <div class="contact-img rounded-3 overflow-hidden">
+                        <img src="assets/images/contact-img-1.jpg" alt="Contact Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="contact-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Book a Call back
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           Book a call with one of our expert designers to
+                           discuss your ideas and explore the best options
+                           for your kitchen makeover.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 my-4 my-lg-0 wow animate__fadeInUp">
+                  <div class="contact-wrap">
+                     <div class="contact-img rounded-3 overflow-hidden">
+                        <img src="assets/images/contact-img-2.jpg" alt="Contact Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="contact-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Book a Shop Appointment
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           Call in or book an appointment with one of our
+                           expert designers to explore the best design
+                           solutions for your kitchen makeover.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-md-6 my-4 my-lg-0 wow animate__fadeInUp">
+                  <div class="contact-wrap">
+                     <div class="contact-img rounded-3 overflow-hidden">
+                        <img src="assets/images/contact-img-1.jpg" alt="Contact Img" class="img-fluid w-100 h-100 object-cover">
+                     </div>
+                     <div class="contact-text py-4">
+                        <h3 class="fs-30 ffp fw-600 mb-2 mt-lg-2">
+                           Book a Free Home Visit
+                        </h3>
+                        <p class="fs-20 lh-1-5 mb-0">
+                           Book a free home visit with our expert to discuss
+                           your ideas and provide personal solutions to bring
+                           your dream kitchen makeover to life.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+             
+            </div>
+
+
+         </div>
+      </div>
+      <div class="testimonial-sec py-5 overflow-hidden">
+         <div class="container">
+            <div class="services-heading text-center wow animate__fadeInUp">
+               <h2 class="fs-50 lh-1 fw-800 mb-4 ">
+                  Hear From Our <span class="text-danger">Happy Customers</span>!
+               </h2>
+            </div>
+            <div class="testimonial-wrap wow animate__fadeInUp">
+               <div class="testimonial-con d-flex px-4 py-5 gap-3">
+                  <div class="quote-img">
+                     <img src="assets/images/quote-img.png" alt="Quote img" class="img-fluid mt-3 me-4">
+                  </div>
+                  <div class="testi-bx">
+                     <p class="fs-20 lh-1-5 mb-4 pb-3">
+                        <strong class="d-block">A Stress-Free Kitchen Transformation.</strong>
+                       <i>
+                        From the first consultation to the final installation, the team was professional and  friendly. Our kitchen now looks modern and stylish. If you're thinking of upgrading your kitchen, I recommend The Kitchen Clinic.
+                       </i>
+                     </p>
+                     <h4 class="text-danger fs-20 lh-1 text-uppercase fw-700">
+                        Jenny, Sale
+                     </h4>
+                  </div>
+               </div>
+               <div class="testimonial-con d-flex px-4 py-5 gap-3">
+                  <div class="quote-img">
+                     <img src="assets/images/quote-img.png" alt="Quote img" class="img-fluid mt-3 me-4">
+                  </div>
+                  <div class="testi-bx">
+                     <p class="fs-20 lh-1-5 mb-4 pb-3">
+                        <strong class="d-block">Highly Recommended – Amazing Results.</strong>
+                       <i>
+                        We’re absolutely thrilled with our kitchen makeover. The fitters worked quickly and left no mess behind. The quality of the doors and worktops is brilliant. If you want a high quality kitchen upgrade, then try The Kitchen Clinic.
+                       </i>
+                     </p>
+                     <h4 class="text-danger fs-20 lh-1 text-uppercase fw-700">
+                        Simon, Altrincham
+                     </h4>
+                  </div>
+               </div>
+               <div class="testimonial-con d-flex px-4 py-5 gap-3">
+                  <div class="quote-img">
+                     <img src="assets/images/quote-img.png" alt="Quote img" class="img-fluid mt-3 me-4">
+                  </div>
+                  <div class="testi-bx">
+                     <p class="fs-20 lh-1-5 mb-4 pb-3">
+                        <strong class="d-block">Exceptional Service & Stunning Kitchen.</strong>
+                       <i>
+                        The Kitchen Clinic made the whole process easy and kept us fully informed. The fitting was done with care and the end result is simply beautiful. I chose The Kitchen Clinic and love the for refit they did for me.
+                       </i>
+                     </p>
+                     <h4 class="text-danger fs-20 lh-1 text-uppercase fw-700">
+                        Rita, Hale
+                     </h4>
+                  </div>
+               </div>
+               <div class="testimonial-con d-flex px-4 py-5 gap-3">
+                  <div class="quote-img">
+                     <img src="assets/images/quote-img.png" alt="Quote img" class="img-fluid mt-3 me-4">
+                  </div>
+                  <div class="testi-bx">
+                     <p class="fs-20 lh-1-5 mb-4 pb-3">
+                        <strong class="d-block">A Stress-Free Kitchen Transformation.</strong>
+                       <i>
+                        From the first consultation to the final installation, the team was professional and  friendly. Our kitchen now looks modern and stylish. If you're thinking of upgrading your kitchen, I recommend The Kitchen Clinic.
+                       </i>
+                     </p>
+                     <h4 class="text-danger fs-20 lh-1 text-uppercase fw-700">
+                        Jenny, Sale
+                     </h4>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+
+      <div class="brands-sec pb-5">
+         <div class="container">
+            <div class="brand-heading text-center wow animate__fadeInUp">
+               <h2 class="fs-50 lh-1 fw-800 mb-4">
+                  Suppliers of the BEST Quality Brands
+               </h2>
+            </div>
+            <div class="brand-img text-center">
+               <img src="assets/images/brand-img.png" alt="Brands img" class="img-fluid mx-auto">
+            </div>
+         </div>
+      </div>
+
+<footer>
+   <div class="main-footer py-5 bg-light">
+      <div class="container ">
+         <div class="row row-cols-lg-5 row-cols-md-3 row-cols-sm-2 row-cols-1">
+            <div class="col my-4 my-lg-0">
+               <div class="footer-wrap text-center text-sm-start">
+                  <div class="footer-logo">
+                     <a href="index.html">
+                        <img src="assets/images/footer-logo.png" alt="Footer Logo" class="img-fluid">
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="col my-4 my-lg-0">
+               <div class="footer-wrap text-center text-sm-start">
+                  <h4 class="fs-25 ls-500 fw-600 text-uppercase mb-3">
+                     Quick Links
+                  </h4>
+                  <div class="footer-links">
+                     <ul>
+                        <li>
+                           <a href="#">
+                              Home
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Doors
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Worktops
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Sinks & Taps
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Appliances
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col my-4 my-lg-0">
+               <div class="footer-wrap text-center text-sm-start">
+                  <h4 class="fs-25 ls-500 fw-600 text-uppercase mb-3">
+                     Get in Touch
+                  </h4>
+                  <div class="footer-links">
+                     <ul>
+                        <li>
+                           <a href="#">
+                              About Us
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              FAQ
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Contact us
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col my-4 my-lg-0">
+               <div class="footer-wrap text-center text-sm-start">
+                  <h4 class="fs-25 ls-500 fw-600 text-uppercase mb-3">
+                     Policies
+                  </h4>
+                  <div class="footer-links">
+                     <ul>
+                        <li>
+                           <a href="#">
+                              Cookies Policy
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Disability Accommodation Policy
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Privacy Policy
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                              Terms and Condition
+                           </a>
+                        </li>
+                      
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col my-4 my-lg-0">
+               <div class="footer-wrap text-center text-sm-start">
+                  <h4 class="fs-25 ls-500 fw-600 text-uppercase mb-3">
+                     Keep in touch
+                  </h4>
+                  <div class="footer-links">
+                     <ul>
+                        <li>
+                           <a href="#">
+                              <i class="fa-solid fa-location-dot"></i>
+                              210 Manchester Rd, Altrincham, WA14 5LU
+                           </a>
+                        </li>
+                        <li>
+                           <a href="tel:01618436049">
+                              <i class="fa-solid fa-phone"></i>
+                              0161 843 6049
+                           </a>
+                        </li>
+                      
+                        <li>
+                           <a href="mailto:info@thekitchenclinic.co.uk">
+                              <i class="fa-solid fa-envelope"></i>
+                              info@thekitchenclinic.co.uk
+                           </a>
+                        </li>
+                      
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="copy-wrap">
+      <div class="container">
+         <div class="copy-right d-flex justify-content-md-between justify-content-center align-items-center py-3 flex-wrap flex-md-nowrap ">
+            <p class="fs-12 ls-100 fw-500 text-uppercase mb-0 text-center text-md-start">
+               Copyright 2025 All rights reserved.  &nbsp; | &nbsp;  The Kitchen Clinic &nbsp; | &nbsp;  Website Design by ElevateOM
+            </p>
+            <ul class="d-flex gap-3 justify-content-center justify-content-md-end">
+               <li>
+                  <a href="#" class="fs-12 text-black-50">
+                     <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="fs-12 text-black-50">
+                     <i class="fa-brands fa-twitter"></i>
+                  </a>
+               </li>
+               <li>
+                  <a href="#" class="fs-12 text-black-50">
+                     <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</footer>
+
+
+      <script src="assets/js/jquery-3.7.1.js"></script>
+      <script src="assets/js/slick.min.js"></script>
+      <script src="assets/js/wow.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/custom.js"></script>
+      <script>new WOW({ animateClass: 'animate__animated' }).init();</script>
+   </body>
+</html>
