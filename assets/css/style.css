@@ -123,6 +123,9 @@ h1, .h1{
 .fs-17{
     font-size: 17px;
 }
+.fs-18{
+    font-size: 18px;
+}
 .fs-20{
     font-size: 20px;
 }
@@ -168,7 +171,9 @@ h1, .h1{
 .lh-1-8{
     line-height: 1.8;
 }
-
+.lh-2{
+    line-height: 2;
+}
 /* 02 */
 
 
@@ -367,7 +372,52 @@ button#ScrollToTop:hover {
 .footer-links ul li a:hover {
     color: #c00000;
 }
-
+.contact-banner .banner-item{
+    height: 300px;
+}
+.address-wrap a {
+    padding: 17px 25px;
+}
+.map-sec {
+    height: 530px;
+}
+.map-sec iframe{
+    height: 100%;
+    width: 100%;
+}
+.form-grup input {
+    background: #ffffff;
+    border-radius: 5px;
+    height: 60px;
+}
+.form-grup textarea{
+    background: #ffffff;
+    border-radius: 5px;
+    height: 247px;
+}
+.form-grup input[type="checkbox"] {
+    height: 16px;
+    width: 16px;
+}
+.filechoose input{
+opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.filechoose {
+    background: #6f757e;
+    width: 146px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
 @media(max-width:1700px){
     .navbar-brand {
         width: 350px;
@@ -508,6 +558,25 @@ button#ScrollToTop:hover {
     }
     .banner-btns a {
         width: 230px;
+    }
+    .fs-18 {
+        font-size: 14px;
+    }
+    .fs-16 {
+        font-size: 13px;
+    }
+    .form-grup input {
+        height: 48px;
+    }
+    .form-grup textarea {
+        height: 180px;
+    }
+    .filechoose {
+        width: 140px;
+        height: 47px;
+    }
+    .map-sec {
+        height: 430px;
     }
 }
 
