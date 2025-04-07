@@ -182,7 +182,12 @@ h1, .h1{
     font-weight: 700;
     text-transform: uppercase;
 }
-.btn-dark{
+.btn-dark:hover{
+    background-color: #C00000;
+    border-color: #C00000;
+    color: #fff;
+}
+.btn-dark, .btn-light:hover{
     background-color: #000;
     border-color: #000;
     color: #fff;
@@ -195,6 +200,11 @@ h1, .h1{
 .btn-danger{
     background-color: #C00000;
     border-color: #C00000;
+    color: #fff;
+}
+.btn-danger:hover{
+    background-color: #000;
+    border-color: #000;
     color: #fff;
 }
 
