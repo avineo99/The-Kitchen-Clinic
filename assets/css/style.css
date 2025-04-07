@@ -541,7 +541,9 @@ button#ScrollToTop:hover {
     .form-group, .nav-btn  {
         width: 100%;
     }
-  
+    .before-slider {
+        width: 50px;
+    }
 }
 @media(max-width:767px){
     .carousel-item {
